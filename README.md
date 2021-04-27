@@ -23,14 +23,22 @@ $  sudo vim  ~/.bash_profile
 $ source ~/.bash_profile
 ```
 
+## sklearn install
+
+`pip3 install -U scikit-learn`
+
 ## torchtext
 
 `pip3 install torchtext`
 
+> メモリ4G以上が望ましい
 
 ## pytorch
 
 https://pytorch.org/get-started/locally/
+
+> torchtextは下記ライブラリ依存するので、`pip3 install torchtext`を実行することでtorchもインストールされる  
+> Installing collected packages: dataclasses, numpy, typing-extensions, torch, urllib3, idna, chardet, certifi, requests, tqdm, torchtext
 
 
 ### 参照url
